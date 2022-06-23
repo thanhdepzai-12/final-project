@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Be+Vietnam+Pro:wght@600&family=Bungee+Shade&family=Comforter&family=Dongle:wght@300&family=Joan&family=Libre+Barcode+39+Extended+Text&family=Love+Light&family=Merriweather+Sans:wght@700&family=Monoton&family=Ms+Madi&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Serif&family=Pacifico&family=Poppins&family=Redressed&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Shizuru&family=Smooch+Sans:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 100%;
+
+}
+header {
+    width: 100%;
+    background-color: #FFC85C;
+    padding: 10px 0;
+}
+.header-list {
+    max-width: 1280px;
+    margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.header-list a {
+    text-decoration: none;
+    color: black;
+}
+.header-list h1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 40px ;
+    text-transform: uppercase;
+    color: #59886B;
+    text-shadow: 0 0 1px black;
+}
+.logo-header {
+    width: 150px;
+    height: 150px;
+    background-image:url(/photo/pngwing.com\ \(2\).png) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #59886B;
+}
+.themnail-header {
+
+    text-align: center;
+padding: 10px 0;
+border-top:2px solid #59886B;
+border-bottom: 2px solid #59886B;
+}
+.themnail-header p {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+.s-1 {
+    background-color: #FFC85C;
+}
+.s-2 {
+    width: 100%;
+height: 1000vh;
+    background-color: #FFC85C;
+    box-shadow: 0 0 1000px  #C05555 inset;
+    z-index: -1;
+}
+.main-box{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.trend-card {
+    width: 100%;
+    display: flex;
+    gap: 5%;
+    position: relative;
+}
+.trend-card h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-size: 150px;
+    z-index: 3;
+    font-family: 'Joan', serif;
+text-transform: uppercase;
+color: #C05555;
+text-shadow: 0 0 4px black;
+
+}
+.trend-photo {
+    display: flex;
+    position: relative;
+ width: 40%;
+height: 500px;
+}
+.trend-photo img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+.photo-trend-2 {
+    position: absolute;
+    right: 0;
+}
+.photo-trend-1 {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+    z-index: 2;
+}
+.photo-trend-1 img {
+    border-bottom-right-radius:100px ;
+}
+.photo-trend-2 img {
+    border-top-right-radius:100px ;
+    border-top-left-radius:100px ;
+}
+.main-content-style {
+    margin-top: 40px;
+    width: 100%;
+height: auto;
+display: flex;
+gap: 2%;
+}
+.active-tab {
+    width: 60%;
+}
+.tab-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.tab-button {
+    width: 100%;
+    display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 10px;
+}
+.tabs-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 218.05px;
+}
+.tabs-pane {
+    display: none;
+    padding: 0 20px;
+    line-height: 1.5;
+    height: 404.94px;
+}
+.tabs-pane h1 {
+    font-size: 40px;
+    color:#7D5E3F;
+    font-family: 'Anton', sans-serif;
+}
+.tabs-pane p {
+    font-size: 20px;
+    font-family: 'Smooch Sans', sans-serif;
+}
+.btn-1 {
+    background-image: url(/photo/style-black.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.btn-2 {
+    background-image: url(/photo/style-blue.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+.btn-3 {
+background-image: url(/photo/style-red.jpg);
+background-position: center;
+background-size: cover; 
+}
+.active { 
+    border: 2px solid black;
+}
+.actives {
+    display: block;
+}
+.photo-style {
+    width: 38%;
+}
+.photo-style img {
+    width: 100%;
+    height: 630px;
+    object-fit: cover;
+    object-position: right center;
+    border-radius: 10px;
+}
+.photo-img {
+    display: none;
+}
+.Newactive {
+    display: block;
+}
+.main-detail-nl {
+    margin-top: 150px;
+    width: 100%;
+    background-color: white;
+    height: 630px;
+position: relative;
+display: flex;
+
+}
+.main-detail-nl h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-family: 'Joan', serif;
+    color: #C05555;
+    text-shadow: 0 0 3px white;
+}
+.child-main-detail-nl {
+    width: 100%;
+    height: 100%;
+background: url(/photo/—Pngtree—golden\ line\ draft\ line\ flower_6284054.png) center/cover;
+}
+.photo-detail-nl img {
+    height: 800px;
+}
+.detail-nl {
+    width: 60%;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    font-size: 20px;
+    font-family: 'Smooch Sans', sans-serif;
+    height: 80%;   
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.detai-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detai-col h1 {
+    color: #7D5E3F;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+@keyframes change {
+0% {
+background: url(/photo/vải\ jean.jpg) center/cover;
+}
+20%{
+    background: url(/photo/vai-polo.jpg)center/cover;
+}
+40%{
+    background: url(/photo/vai-s-mi.jpg)center/cover;
+}
+60%{
+    background: url(/photo/vaicotttton.jpg)center/cover;
+}
+80%{
+    background: url(/photo/vai-cotton-may-ao-phong-dong-phuc.jpg)center/cover;
+}
+100%{
+    background: url(/photo/vai-may-quan-tay-nam-4.jpg)center/cover;
+}
+
+}
+.images-detail-nl {
+    margin-bottom: 20px;
+    height: 70%;
+    width: 100%;
+animation: change 20s infinite linear ;
+}
+.main-factory {
+    width: 100%;
+    height: 630px;
+    margin-top: 250px;
+    position: relative;
+}
+
+
+.header-fac {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+color: #C05555;
+}
+.header-fac h1 {
+    font-size: 70px;
+    font-family: 'Joan', serif;
+ 
+    z-index: 3;
+}
+.header-fac .bx {
+    font-size: 70px;
+   
+}
+
+.icon-fac .bx {
+    font-size: 70px;
+    color: #7D5E3F;
+}
+.main-detail-fac{
+    width: 100%;
+height: 80%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.content-fac {
+    border-right: 1px solid black;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr ;
+    padding-right: 100px;
+    row-gap: 10px;
+}
+.photo-fac {
+    border-left: 1px solid black;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    padding-left: 100px;
+    row-gap: 10px;
+}
+.row {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.r-2 {
+    background: url(/photo/daokao.jpg) center/cover;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+.r-4 {
+    background: url(/photo/langtrach.jpg) center/cover;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+.r-6 {
+    background: url(/photo/30832237112_2a20126653_c.jpg) center/cover;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+.r-2:hover {
+    filter: grayscale(0%);
+    transition: .5s ease-in-out;
+}
+.r-4:hover {
+    filter: grayscale(0%);
+    transition: .5s ease-in-out;
+}
+.r-6:hover {
+    filter: grayscale(0%);
+    transition: .5s ease-in-out;
+}
+
+.row h1 {
+font-size: 25px;
+font-family: 'Anton', sans-serif;
+}
+.row p {
+    font-family: 'Smooch Sans', sans-serif;
+    font-size: 16px;
+}
+.dady-jew {
+    margin-top: 100px;
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+.themnail-jew {
+    width: 100%;
+    position:absolute;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 24.5%;
+}
+.themnail-jew::after {
+    content: "";
+    width: 400px;
+    height: 10px;
+    background-color: #C05555;
+    position: absolute;
+    bottom: 0;
+ left: 25%;
+ border-top-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+}
+.themnail-jew h1 {
+    font-size: 150px;
+    font-family: 'Joan', serif;
+    color: #C05555;
+    text-shadow: 0 0 3px white;
+}
+.main-jew {
+position: absolute;
+    width: 100%;
+height: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px;
+    bottom: 0;
+}
+.main-jew .col {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.photo-col img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.line-col {
+    margin: 20px auto;
+    width: 200px;
+    height: 5px;
+   background-color: #7D5E3F;
+}
+.col-15 , .col-17 {
+animation: translate 6s infinite linear;
+transition: .6s linear;
+}
+.col-16 , .col-18 {
+    animation: translate2 6s infinite linear;
+transition: .6s linear;
+}
+@keyframes translate {
+    0%{
+        transform: translate(0);
+        transition: .5s linear;
+    }
+    25% {
+    
+        transform: translate(0 , -50px);
+        transition: .5s linear;
+    }
+    50% {
+        transform: translate(0 , 50px);
+        transition: .5s linear;
+    }
+    75% {
+        transform: translate(0 , -50px);
+        transition: .5s linear;
+    }
+    100% {
+        transform: translate(0);
+        transition: .5s linear;
+    }
+}
+
+@keyframes translate2 {
+    0%{
+        transform: translate(0);
+        transition: .5s linear;
+    }
+    25% {
+    
+        transform: translate(0 , 50px);
+        transition: .5s linear;
+    }
+    50% {
+        transform: translate(0);
+        transition: .5s linear;
+    }
+    75% {
+        transform: translate(0 , -50px);
+        transition: .5s linear;
+    }
+    100% {
+        transform: translate(0);
+        transition: .5s linear;
+    }
+}
