@@ -314,7 +314,21 @@ text-transform: uppercase;
 }
 .c-3 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 13px;
+    font-size: 12.5px;
+}
+.c-3 button {
+    width: 100%;
+    font-size: 15px;
+    background-color: #C05555;
+    border: none;
+    margin-top: 5px;
+    padding: 2px 0;
+    border-radius: 5px;
+    transition: .5s linear;
+}
+.c-3 button:hover {
+    transition: .5s linear;
+    background-color: #8c3c3c;
 }
 .c-4 {
     background-image: url(/photo//ẩm\ thực.jpg);
@@ -608,7 +622,7 @@ border-top: 1px solid white;
     z-index: 2;
 }
 .themnail-photo-2 {
-  color: #11324D;
+  color: #921224;
     font-size: 45px;
 }
 .themnail-photo-3 {
@@ -645,7 +659,7 @@ border-top: 1px solid white;
     transition: .5s linear;
 }
 .overlay-photo-2 button {
-    background-color: #11324D;
+    background-color: #921224;
 }
 .overlay-photo-3 button {
     background-color: #2B580C;
@@ -656,7 +670,7 @@ border-top: 1px solid white;
 }
 .overlay-photo-2 button:hover  {
     transition: .5s linear;
-    background-color: #0c263b;
+    background-color: #590b15;
     color: whitesmoke;
 }
 .overlay-photo-3 button:hover {

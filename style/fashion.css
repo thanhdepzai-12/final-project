@@ -12,6 +12,7 @@ header {
     width: 100%;
     background-color: #FFC85C;
     padding: 10px 0;
+    box-shadow: 0 0 100px #BB371A inset;
 }
 .header-list {
     max-width: 1280px;
@@ -58,7 +59,6 @@ border-bottom: 2px solid #59886B;
 }
 .s-2 {
     width: 100%;
-height: 1000vh;
     background-color: #FFC85C;
     box-shadow: 0 0 1000px  #C05555 inset;
     z-index: -1;
@@ -486,5 +486,178 @@ transition: .6s linear;
     100% {
         transform: translate(0);
         transition: .5s linear;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    bottom: 0;
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background-color: #FFC85C;
+    box-shadow: 0 0 200px #BB371A inset;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.row-footer{
+ max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col-footer{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col-footer:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+}
+
+.col-footer h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: #59886B;
+}
+
+.col-footer p{
+    color: #59886B;
+}
+
+.đt-footer{
+    width: fit-content;
+    margin: 20px 0;
+}
+
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #59886B;
+}
+
+form{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #59886B;
+}
+
+form .bx-envelope{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #59886B;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #59886B;
+    border: 0;
+    outline: none;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .bx-right-arrow-alt{
+    font-size: 16px;
+    color: #59886B;
+}
+
+.social-icons .bxl-facebook, 
+.social-icons .bxl-twitter, 
+.social-icons .bxl-instagram, 
+.social-icons .bxl-gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #59886B;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #59886B;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+    color: #59886B;
+
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #8fd1a8;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #59886B;
+    border-radius: 3px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
     }
 }
