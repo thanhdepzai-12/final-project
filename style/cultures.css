@@ -1,444 +1,375 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Be+Vietnam+Pro:wght@600&family=Bungee+Shade&family=Comforter&family=Dongle:wght@300&family=Joan&family=Libre+Barcode+39+Extended+Text&family=Love+Light&family=Merriweather+Sans:wght@700&family=Monoton&family=Ms+Madi&family=Open+Sans:wght@300&family=Oswald:wght@200&family=PT+Serif&family=Pacifico&family=Poppins&family=Redressed&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Shizuru&family=Smooch+Sans:wght@500&display=swap');
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
-.container{
+.container {
+    background-color: whitesmoke;
     width: 100%;
 }
-
-header{
+header {
     width: 100%;
-    background-image: url(/photo/phat-huy-gia-tri-van-hoa-viet-nam-nham-tung-buoc-hien-thuc-hoa-khat-vong-phat-trien-dat-nuoc.jpg);
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 0 200px black inset;
-    /* background-color: #FFC85C; */
-    /* padding: 10px 0; */
+    height: 100vh;
 }
-
-.header-list{
-    max-width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.s-1{
-    background-color: #FFC85C;
-    border-radius: 50%;
-    width: 260px;
-    height: 260px;
-    display: flex;
-    justify-content: center;
-}
-
-.header-list a{
-    text-decoration: none;
-    color: black;
-}
-
-.header-list h1{
-    font-family: 'Anton', sans-serif;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: #59886B;
-    text-shadow: 0 0 1px black;
-}
-
-
-
-.logo-header .ten{
-    position: relative;
-}
-
-.logo-header .logo{
-    width: 150px;
-    height: 150px;
-    background-image: url(/photo/pngwing.com\ \(2\).png);
-    background-position: center;
-    background-size: cover;
-    margin-left: 33px;
-    border-radius: 50%;
-    border: 1px solid black;
-    background-color: #59886B;
-}
-
-.logo-header .ten .text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-family: 'Monoton', cursive;
-    /* color: #FFC85C; */
-    text-shadow: 0 0 20px #C05555;
-}
-
-.logo-header .ten .intro{
-    width: 100%;
-    font-size: 35px;
-    color: whitesmoke;
-    text-shadow: 0 0 4px black;
-    font-family: 'Ms Madi', cursive;
-    position: absolute;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-}
-
-.s-2{
-    background-color: #FFC85C;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.themnail-header{
-    width: 180px;
-    text-align: center;
-    padding: auto;
-    border-top: 2px solid #59886B;
-    border-bottom: 2px solid #59886B;
-}
-
-.themnail-header p{
-    font-size: 20px;
-    font-family: 'Anton', sans-serif;
-}
-
-.detail{
-    width: 100%;
-    height: 30vh;
-    text-align: center;
-    margin: auto;
-    padding: 0 200px;
-    color: whitesmoke;
-}
-
-section{
-    background-color: #FFC85C;
-    box-shadow: 0 0 1000px  #C05555 inset;
-}
-
-.ective-tab{
-    width: 100%;
-    display: flex;
-    /* flex-direction: column; */
-   justify-content: center;
-   align-items: center;
-}
-
-.abs-ane{
-    /* display: none; */
-    padding: 0 20px;
-    line-height: 1.5;
-    height: 404.94px;
-}
-
-.abs-ane h1{
-    font-size: 40px;
-    color:#7D5E3F;
-    font-family: 'Anton', sans-serif;
-}
-
-.abs-ane p{
-    font-size: 20px;
-    font-family: 'Smooch Sans', sans-serif;
-}
-
-.image{
-    width: 100%;
-}
-
-.image img{
-    width: 600px;
-    height: 630px;
-    object-fit: cover;
-    object-position: center;
-    border-radius: 10px;
-}
-
-.trend-card{
-    width: 100%;
-    display: flex;
-    gap: 5%;
-    position: relative;
-}
-
-.trend-card h1{
-    /* position: absolute; */
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%); */
-    margin: auto;
-    font-size: 150px;
-    z-index: 3;
-    font-family: 'Joan', serif;
-    text-transform: uppercase;
-    color: #C05555;
-    text-shadow: 0 0 4px black;
-}
-
-.main-content-style{
-    margin-top: 40px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    gap: 2%;
-}
-
-.active-tab{
-    width: 60%;
-}
-
-.tab-content{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.tab-button{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
-}
-
-.tabs-btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 218.05px;
-}
-
-.tabs-pane{
-    display: none;
-    padding: 0 20px;
-    line-height: 1.5;
-    height: 404.94px;
-}
-
-.tabs-pane h1{
-    font-size: 40px;
-    color:#7D5E3F;
-    font-family: 'Anton', sans-serif;
-}
-
-.tabs-pane p{
-    font-size: 20px;
-    font-family: 'Smooch Sans', sans-serif;
-}
-
-.btn-1{
-    background-image: url(/photo/nha-nuoc-van-lang-ra-doi-trong-hoan-canh-nao-1.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-.btn-2{
-    background-image: url(/photo/bắc\ thuộc.jpg);
-    background-position: center;
-    background-size: cover; 
-}
-
-.btn-3{
-    background-image: url(/photo/tiep-bien-van-hoa-trong-boi-canh-hoi-nhap-1.jpg);
-    background-position: center;
-    background-size: cover; 
-}
-
-.active{ 
-    border: 2px solid black;
-}
-
-.actives{
-    display: block;
-}
-
-.photo-style{
-    width: 38%;
-}
-
-.photo-style img{
-    width: 100%;
-    height: 630px;
-    object-fit: cover;
-    object-position: left center;
-    border-radius: 10px;
-}
-
-.photo-img{
-    display: none;
-}
-
-.Newactive{
-    display: block;
-}
-
-.detai-col{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.detai-col h1{
-    color: #7D5E3F;
-    font-family: 'Anton', sans-serif;
-    font-size: 50px;
-    text-align: center;
-}
-
-.dady-jew{
-    /* margin-top: 100px; */
-    height: 920px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    position: relative;
-}
-
-.themnail-jew{
-    width: 100%;
-    position:absolute;
-    top:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 24.5%;
-}
-
-.themnail-jew::after{
-    content: "";
-    width: 500px;
-    height: 10px;
-    background-color: #C05555;
-    position: absolute;
-    bottom: 0;
-    left: 25%;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-.themnail-jew h1{
-    font-size: 150px;
-    font-family: 'Joan', serif;
-    color: #C05555;
-    text-shadow: 0 0 3px white;
-}
-
-.main-jew{
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 50px;
-    bottom: 0;
-}
-
-.main-jew .col{
+.main-header-culture {
     width: 100%;
     height: 100%;
+    background: url(/photo/vanhoavn.jpg) center/cover;
+    position: relative;
+  
+}
+.part-of-header {
+    position: absolute;
+    left: 0;
+    width: 50%;
+ display: flex;
+ flex-direction: column;
+}
+.part-of-logo {
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    right: 0;
     display: flex;
+    justify-content:start;
+    align-items: flex-end;
     flex-direction: column;
 }
-
-.photo-col img{
-    width: 100%;
-    height: 400px;
+.part-of-logo img {
+    margin-top: 10px;
+    margin-right: 30px;
+    width: 25vh;
+    height: 25vh;
     object-fit: cover;
-    object-position: center;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.boxheader-2 {
+width: 100%;
+height: 25vh;
+background-color: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.boxheader-2 h2 {
+    font-size: 50px ;
+    font-family: 'Anton', sans-serif;
+    background: url(/photo/vanhoavn.jpg) top center/cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+.boxheader-1 {
+    width: 70%;
+height: 75vh;
+background-color: whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.boxheader-1 h1 {
+    transform: rotate(90deg);
+    font-size: 90px;
+    font-family: 'Anton', sans-serif;
+    background: url(/photo/vanhoavn.jpg) center/cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    width: 100%;
+}
+section {
+    height: 630px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.mainsec-culture {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header-mainsec {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    position: relative;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    color: #FFC85C;
+    text-shadow: 0 0 4px black;
+}
+.header-mainsec::after {
+    content: "";
+width: 210px;
+position: absolute;
+z-index: 2;
+bottom: 30px;
+height: 5px;
+background-color: #59886B;
+left: 33%;
+}
+.content-mainsec {
+    height: 80%;
+    width: 100%;
+}
+.tabpane {
+    width: 100%;
+    height: 100%;
+background-color: whitesmoke;
+display: none;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 20px;
+}
+.colum-1 {
+    height: 100%;
+    width: 100%;
+    transition: .5s linear;
+}
+.colum-1 img {
+    width: 100%;
+    height: 504px;
+    object-fit: cover;
+    border-top-right-radius:50% ;
+    border-bottom-right-radius:50% ;
+    border-top-left-radius:50% ;  
+      transition: .5s linear;
+}
+.colum-2 {
+    position: relative;
+    transition: .5s linear;
+}
+.colum-2 h1 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(0 ,-50%);
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+    color: #AA3A3A;
+}
+.colum-2 span {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translate(0 ,-50%);
+   font-size: 60px;
+   font-family: 'Oswald', sans-serif;
+   color: #AA3A3A;
+
+}
+.colum-3 {
+    width: 100%;
+    height: 100%;
+font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s linear;
+}
+.activeTab {
+display: grid;
+
 }
 
-.line-col{
-    margin: 20px auto;
-    width: 200px;
-    height: 5px;
-    background-color: #7D5E3F;
+.s-2 {
+    width: 100%;
+    background-color: #A4B787;
+    margin-top: 20px;
+}
+.mainbtn {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 40px;
+    padding: 40px 0;
+}
+.btnCul {
+    width: 100%;
+    height: 100%;
+position: relative;
+}
+.bx-search{
+    color: #FCFFE7;
+    background-color: #DEA057;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    transition: .5s linear;
+}
+.btnCul-0 {
+    background: url(/photo/vanhoa-dantoc.jpg) center/cover;
+    transition: .5s linear;
+}
+.overlay-btnCul {
+    width: 100%;
+height: 100%;
+background: rgb(0,0,0,0.5);
+position: relative;
+}
+.themnail-btnoverlay {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 4px black;
+    position: absolute;
+    font-size: 30px;
+    top: 20px;
+    left: 20px;
+    display: block;
+}
+.caption-overlay {
+    position: absolute;
+    bottom: 115px;
+    left: -80px;
+transform-origin:top;  
+    transform: rotate(-90deg);
+    color: white;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 0 0 4px black;
+    letter-spacing: 10px;
+    display: block;
+}
+.btnCul-1 {
+    background: url(/photo/Vua-Bao-Dai.jpg) center/cover;
+}
+.btnCul-2 {
+background: url(/photo/cach-bay-ban-tho-ngay-tet-2.jpg) center/cover;
+}
+.active {
+    transition: .5s linear;
+}
+.active .overlay-btnCul {
+    transition: .5s linear;
+    background:none ;
+}
+.active .bx-search {
+    transition: .5s linear;
+    display: block;
+}
+.active .themnail-btnoverlay {
+    display: none;
+    transition: .5s linear;
+}
+.active .caption-overlay {
+    display: none;
+    transition: .5s linear;
+}
+.mainsec-end {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+.colum-25 {
+    width: 100%;
+    height: 100%;
+    border-right: 1px solid rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.3;
+    padding: 10px;
+    position: relative;
+    z-index: 2;
+}
+.colum-25 h1 {
+    color: #E6B31E;
+    font-size: 30px;
+    z-index: 2;
+}
+.colum-25 p {
+    z-index: 2;
+}
+.colum-26 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+.colum-25::after {
+    content: "Feminist";
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+    font-family: 'Oswald', sans-serif;
+right: -120px;
+color: rgb(205, 204, 204);
+opacity: 0.2;
+}
+.colum-icon {
+    height: 291.66px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 15px;
+    font-family: 'Anton', sans-serif;
+    padding: 10px 0;
+}
+.fas {
+    font-size: 40px;
+    color: #E6B31E;
+}
+.colum-27 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid rgb(200, 200, 200);
+  
+}
+.colum-27 img {
+    height: 400px;
 }
 
-.col-15 , .col-17{
-    animation: translate 6s infinite linear;
-    transition: .6s linear;
-}
 
-.col-16 , .col-18{
-    animation: translate2 6s infinite linear;
-    transition: .6s linear;
-}
 
-@keyframes translate{
-    0%{
-        transform: translate(0);
-        transition: .5s linear;
-    }
-    25%{
-    
-        transform: translate(0 , -50px);
-        transition: .5s linear;
-    }
-    50%{
-        transform: translate(0 , 50px);
-        transition: .5s linear;
-    }
-    75%{
-        transform: translate(0 , -50px);
-        transition: .5s linear;
-    }
-    100%{
-        transform: translate(0);
-        transition: .5s linear;
-    }
-}
 
-@keyframes translate2{
-    0%{
-        transform: translate(0);
-        transition: .5s linear;
-    }
-    25%{
-    
-        transform: translate(0 , 50px);
-        transition: .5s linear;
-    }
-    50%{
-        transform: translate(0);
-        transition: .5s linear;
-    }
-    75%{
-        transform: translate(0 , -50px);
-        transition: .5s linear;
-    }
-    100%{
-        transform: translate(0);
-        transition: .5s linear;
-    }
-}
+
+
+
 
 footer{
+    font-family: 'Anton', sans-serif;
     width: 100%;
     bottom: 0;
     /* background: linear-gradient(to right, #00093c, #2d0b00); */
-    background-color: #FFC85C;
-    box-shadow: 0 0 200px #BB371A inset;
+    background-color: #59886B;
+    box-shadow: 0 0 200px #333 inset;
     color: #fff;
     padding: 100px 0 30px;
     font-size: 13px;
     line-height: 20px;
+   
 }
 
 .row-footer{
-    max-width: 1280px;
+ max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -462,17 +393,18 @@ footer{
     border-radius: 50%;
     border: 1px solid black;
     margin-bottom: 30px;
+    background-color: whitesmoke;
 }
 
 .col-footer h3{
     width: fit-content;
     margin-bottom: 40px;
     position: relative;
-    color: #59886B;
+    color: #333;
 }
 
 .col-footer p{
-    color: #59886B;
+    color: #333;
 }
 
 .đt-footer{
@@ -487,7 +419,7 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: #59886B;
+    color: #333;
 }
 
 form{
@@ -501,7 +433,7 @@ form{
 form .bx-envelope{
     font-size: 18px;
     margin-right: 10px;
-    color: #59886B;
+    color: #333;
 }
 
 form input{
@@ -521,7 +453,7 @@ form button{
 
 form button .bx-right-arrow-alt{
     font-size: 16px;
-    color: #59886B;
+    color: #333;
 }
 
 .social-icons .bxl-facebook, 
@@ -534,7 +466,7 @@ form button .bx-right-arrow-alt{
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #59886B;
+    color: #333;
     background: #fff;
     margin-right: 15px;
     margin-top: 20px;
@@ -550,13 +482,15 @@ hr{
 
 .copyright{
     text-align: center;
-    color: #59886B;
+    color: #333;
+
 }
 
 .underline{
     width: 100%;
     height: 5px;
     background: #8fd1a8;
+    color: #333;
     border-radius: 3px;
     position: absolute;
     top: 25px;
@@ -570,6 +504,7 @@ hr{
     background: #59886B;
     border-radius: 3px;
     position: absolute;
+    color: #333;
     top: 0;
     left: 10px;
     animation: moving 2s linear infinite;

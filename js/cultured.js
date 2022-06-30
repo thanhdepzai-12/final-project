@@ -1,19 +1,16 @@
 const $ = document.querySelector.bind(document)
 const $$ = document.querySelectorAll.bind(document)
 
-const tabs = $$('.tabs-btn') 
-const panes = $$('.tabs-pane') 
-const photos = $$('.photo-img')
+const Button = $$('.btnCul') 
+const panes = $$('.tabpane') 
 
-tabs.forEach((tab , index )=> {
+
+Button.forEach((tab , index )=> {
 const pane = panes[index]
-const images = photos[index]
     tab.onclick = function (){
-        $('.tabs-btn.active').classList.remove('active')
-        $('.tabs-pane.actives').classList.remove('actives')
-        $('.photo-img.Newactive').classList.remove('Newactive')
+        $('.btnCul.active').classList.remove('active')
+        $('.tabpane.activeTab').classList.remove('activeTab')
         this.classList.add('active')
-        pane.classList.add('actives')
-        images.classList.add('Newactive')
+        pane.classList.add('activeTab')
     }
 });
