@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    background: #FFC85C;
+}
+
+.s-1{
+    width: 1050px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.container .card{
+    position: relative;
+    width: 320px;
+    height: 420px;
+    margin: 15px;
+    overflow: hidden;
+}
+
+.container .card span{
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    opacity: 0.95;
+    background: #9c27b0;
+    z-index: 1;
+    transition: width 0.5s, height 0.5s;
+}
+
+.container .card:hover span{
+    width: 1000px;
+    height: 1000px;
+}
+
+.container .card .imgBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.container .card .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .card .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.container .card .content div{
+    padding: 40px;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.2s;
+}
+
+.container .card:hover .content div{
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.s-2{
+    position: relative;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background: #222;
+}
+
+.s-2 .clip{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.s-2 .clip.clip1{
+    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/7-1458007923.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 55% 0, 20% 100%, 0% 100%);
+}
+
+.s-2 .clip.clip2{
+    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/1-1458007856.jpg);
+    background-size: cover;
+    clip-path: polygon(55% 0, 100% 0, 45% 100%, 20% 100%);
+}
+
+.s-2 .clip.clip3{
+    background: url(https://static.tuoitre.vn/tto/i/s626/2016/03/15/2-1458007866.jpg);
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 45% 100%);
+}
+
+.s-2:hover .clip{
+    clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.s-2 .clip:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.s-2 .clip .content{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 70%;
+    padding: 20px;
+    background: #fff;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.s-2 .clip:hover .content{
+    bottom: 0;
+    opacity: 1;
+}
