@@ -183,10 +183,10 @@
          <div class="search-ip"> <input type="text">
             <i class='bx bx-search-alt-2'></i></div>   
             <ul>
-                <li>Made by: thanh an</li>
-                <li>website: Viet Nam 70s</li>
-                <li>Reputation and security</li>
-                <li>Hotline:0977633084</li>
+                <li class="a">Made by: thanh an</li>
+                <li class="b">website: Viet Nam 70s</li>
+                <li class="c">Reputation and security</li>
+                <li class="d">Hotline:0977633084</li>
             </ul>
         </div>
 
@@ -195,10 +195,10 @@
 
     </div>
     <div class="keep-call">
-     <a href="https://www.facebook.com/profile.php?id=100035948992804">   <i class="bx bxl-facebook-circle"></i></a>
-     <a href="https://www.instagram.com/tientahnh.7206/">     <i class="bx bxl-gmail"></i></a>
-     <a href="https://mail.google.com/mail/u/1/#inbox">    <i class="bx bxl-instagram"></i></a>
-     <a href="https://twitter.com/uppaa_06">    <i class="bx bxl-twitter"></i></a>
+     <a class="x" href="https://www.facebook.com/profile.php?id=100035948992804">   <i class="bx bxl-facebook-circle"></i></a>
+     <a class="y" href="https://www.instagram.com/tientahnh.7206/">     <i class="bx bxl-gmail"></i></a>
+     <a class="z" href="https://mail.google.com/mail/u/1/#inbox">    <i class="bx bxl-instagram"></i></a>
+     <a class="h" href="https://twitter.com/uppaa_06">    <i class="bx bxl-twitter"></i></a>
     </div>
 </div>
 
@@ -266,11 +266,11 @@
 
  <div class="photo photo-2">
     <div class="themnail-photo-2">
-        <h2> Du Lịch</h2>
+        <h2> Lễ Hội</h2>
      </div>
      <div class="overlay-photo-2">
  <div class="detail-overlay-photo-2">
-     <p>Phương tiện đi du lịch chủ yếu là xe ca, loại chở trên 30 người, nhưng số người trên xe thường đông hơn. Xe cũ, không điều hoà, cửa sổ mở. Đường xấu, ổ gà, ổ voi, xóc lên, xóc xuống nên đi lại bao giờ cũng là nỗi kinh hoàng của mỗi chuyến nghỉ mát. Còn nếu đi xa hơn vào các tỉnh phía nam, người dân thường đi tàu hỏa. Từ Hà Nội vào Sài Gòn nhanh nhất là 72 giờ, chứ không phải 32 giờ như hiện nay.</p>
+     <p>Lễ hội Việt Nam là sự kiện văn hóa được tổ chức mang tính cộng đồng. "Lễ" là hệ thống những hành vi, động tác nhằm biểu hiện sự tôn kính của con người với thần linh, phản ánh những ước mơ chính đáng của con người trước cuộc sống mà bản thân họ chưa có khả năng thực hiện. "Hội" là sinh hoạt văn hóa, tôn giáo, nghệ thuật của cộng đồng, xuất phát từ nhu cầu cuộc sống.</p>
  <a href=""><button>Xem Thêm</button></a>
  </div>
      </div>
@@ -330,5 +330,34 @@
 
 
 <script src="./js/app.js"></script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+    ScrollReveal ({
+            reset:true,
+            distance:'60px',
+            duration:3000,
+            delay:300
+        
+        });
+
+        ScrollReveal().reveal('.themnail-intro h1' , {delay:400 , origin:'left' });
+        ScrollReveal().reveal('.themnail-intro h2' , {delay:500 , origin:'right' });
+        ScrollReveal().reveal('.photo-intro' , {delay:600 , origin:'bottom' });
+        ScrollReveal().reveal('.search-ip' , {delay:500 , origin:'top' });
+        ScrollReveal().reveal('ul .a' , {delay:400 , origin:'left' });
+        ScrollReveal().reveal('ul .b' , {delay:600 , origin:'top' });
+        ScrollReveal().reveal('ul .c' , {delay:600 , origin:'bottom' });
+        ScrollReveal().reveal('ul .d' , {delay:400 , origin:'right' });
+        ScrollReveal().reveal('.logo-end' , {delay:500 , origin:'bottom' });
+        ScrollReveal().reveal('.keep-call' , {delay:500 , origin:'bottom' });
+        ScrollReveal().reveal('.keep-call .x' , {delay:700 , origin:'bottom' });
+        ScrollReveal().reveal('.keep-call .y' , {delay:900 , origin:'bottom' });
+        ScrollReveal().reveal('.keep-call .z' , {delay:1100 , origin:'bottom' });
+        ScrollReveal().reveal('.keep-call .h' , {delay:1300 , origin:'bottom' });
+        ScrollReveal().reveal('.detail-start' , {delay:300 , origin:'top' });
+        ScrollReveal().reveal('.detail-intro' , {delay:300 , origin:'bottom' });
+</script>
 </body> 
 </html>
