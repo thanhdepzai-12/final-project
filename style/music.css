@@ -395,3 +395,339 @@ opacity: 1;
 transition: 0.5s linear;
     }
 }
+.list-music {
+    position: relative;
+}
+.list-music .bx-headphone {
+    position: absolute;
+    top: 50%;
+    right: 20PX;
+    transform: translate(0,-50%);
+    font-size: 20px;
+}
+.list-music h2 {
+font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.list-music p {
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-s-2 {
+    margin-top: 50px;
+    width: 100%;
+    height: 415px;
+    background: url(/photo/maychoidiathan.jpg) center/cover;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.themnail-footers2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(0,0,0,0.8);
+    padding: 50px 0;
+}
+.themnail-footers2 h1{
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.themnail-footers2 p {
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #EFD345;
+text-transform: capitalize;
+    letter-spacing: 20px;
+}
+.s-3-m {
+    margin-top: 20px;
+    width: 100%;
+    height: 630px;
+    background-color: #111;
+}
+.main-musical {
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+   position: relative;
+}
+.tabs-musical {
+    width: 100%;
+    height: 100%;
+}
+.musical-pane {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: none;
+}
+.paneM1 , .M2{
+background:url(/photo/black-acoustic-guitar-black-background-music-instrument-hobby_175175-269.jpg) center/cover ;
+}
+.paneM2 , .M1{
+    background: url(/photo/drum.jpg) center/cover;
+}
+.paneM3  ,.M3{
+    background: url(/photo/piano.jpg) center/cover;
+}
+.paneM4 , .M4{
+    background:url(/photo/trumpet.jpg) center/cover ;
+}
+.musicactive {
+    display: block;
+    transition: .5s linear;
+}
+.tab-button-musical{
+    position: absolute;
+    z-index: 4;
+    bottom: 20px;
+    width: 80%;
+    padding: 0 20px;
+   left: 50%;
+   transform: translate(-50% ,0);
+    display: flex;
+    justify-content: space-between;
+}
+.detail-paneM {
+    position: absolute;
+    top: 0px;
+right: 0px;
+    width: 40%;
+    color: white;
+ background-color: #111;
+ padding: 10px;
+}
+.detail-paneM h1 {
+    color: #EFD345;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+.detail-paneM p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.btnMusical {
+    width: 150px;
+    height: 150px;
+    transition: .5s linear;
+    box-shadow:  0 0 1.5em rgba(195, 195, 195, 0.674);
+}
+.activeBTN {
+    border: 2px solid #EFD345;
+    transition: .5s linear;
+}
+.themnail-s3-m {
+    width: 100%;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    padding: 20px 0;
+    letter-spacing: 3px;
+}
+.s-1 {
+    height: 800px;
+}
+.themnail-sec1 {
+width: 100%;
+height: 207.5px;
+
+font-size: 70px;
+letter-spacing: 4px;
+color: white;
+font-family: 'Anton', sans-serif;
+animation: photochange 10s infinite linear;
+}
+.themnail-sec1 h3 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+justify-content: center;
+align-items: center;
+background: rgb(0,0,0,0.5);
+}
+
+.logo-fes img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border:1px solid black ;
+height: 120px;
+width: 120px;
+border-radius: 50%;
+background-color: whitesmoke;
+}
+footer{
+    font-family: 'Anton', sans-serif;
+    width: 100%;
+    bottom: 0;
+    /* background: linear-gradient(to right, #00093c, #2d0b00); */
+    background-color: whitesmoke;
+    box-shadow: 0 0 50px #333 inset;
+    color: #fff;
+    padding: 100px 0 30px;
+    font-size: 13px;
+    line-height: 20px;
+   
+}
+
+.row-footer{
+ max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col-footer{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.col-footer:nth-child(2), .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    background-color: whitesmoke;
+}
+
+.col-footer h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+    color: #333;
+}
+
+.col-footer p{
+    color: #333;
+}
+
+.đt-footer{
+    width: fit-content;
+    margin: 20px 0;
+}
+
+footer ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+footer form{
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #59886B;
+}
+
+form .bx-envelope{
+    font-size: 18px;
+    margin-right: 10px;
+    color: #333;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    color: #000;
+}
+
+form button{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+
+form button .bx-right-arrow-alt{
+    font-size: 16px;
+    color: #333;
+}
+
+.social-icons .bxl-facebook, 
+.social-icons .bxl-twitter, 
+.social-icons .bxl-instagram, 
+.social-icons .bxl-gmail{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #333;
+    background: #fff;
+    margin-right: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid #59886B;
+    margin: 20px auto;
+}
+
+.copyright{
+    text-align: center;
+    color: #333;
+
+}
+
+.underline{
+    width: 100%;
+    height: 5px;
+    background: #8fd1a8;
+    color: #333;
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    overflow: hidden;
+}
+
+.underline span{
+    width: 15px;
+    height: 100%;
+    background: #59886B;
+    border-radius: 3px;
+    position: absolute;
+    color: #333;
+    top: 0;
+    left: 10px;
+    animation: moving 2s linear infinite;
+}
+
+@keyframes moving{
+    0%{
+        left: -20px;
+    }
+    100%{
+        left: 100%;
+    }
+}
+

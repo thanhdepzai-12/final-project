@@ -31,7 +31,7 @@ const callApi = async function () {
   
         musicHTML+=`
         <div class="w-100">
-            <h3>-${musicData.name}-</h3>
+    
             <div class="flex">
                 ${musicItemHTML}
             </div>
@@ -107,6 +107,7 @@ MusicTT +=`
  <div class="list-music">
   <h2>${NewMusic.title}</h2>
   <p>${NewMusic.creator}</p>
+  <i class='bx bx-headphone'></i>
  </div>`
 MusicPP +=`
 <div class="music-play">
@@ -124,6 +125,7 @@ DadMusic +=`
             <div class="list-music active">
             <h2>Đính Ước</h2>
             <p>Như Quỳnh, Trường Vũ</p>
+            <i class='bx bx-headphone'></i>
             </div>
 
 ${MusicTT}
@@ -178,10 +180,31 @@ BtnA.forEach((Btn , indexs )=> {
 
 }   
 
+const $ = document.querySelector.bind(document)
+const $$ = document.querySelectorAll.bind(document)
+
+
+const BtnMusic = $$('.btnMusical')
+const Mpane = $$('.musical-pane ')
 
 
 
+BtnMusic.forEach((Btns , indes )=> {
+    const Mtab = Mpane[indes]
 
+        Btns.onclick = function (){
+            $('.btnMusical.activeBTN').classList.remove('activeBTN')
+            $('.musical-pane.musicactive ').classList.remove('musicactive')
+           
+            this.classList.add('activeBTN')
+            Mtab.classList.add('musicactive')
+          
+          
+        }
+    
+    
+    
+    });
 
 
 
