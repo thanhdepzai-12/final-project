@@ -11,6 +11,9 @@
     height: 100vh;
   
 }
+.s-4 , .s-1 , .s-2 , .s-3 {
+    position: relative;
+}
 .login {
     width: 100%;
     height: 100%;
@@ -235,7 +238,7 @@ color: #333;
     height: 100vh;
 position: relative;
 }
-.btn-back {
+.btn-back   {
     position: absolute;
     z-index: 3;
     top: 20px;
@@ -248,7 +251,22 @@ position: relative;
     text-align: center;
     padding: 0.8rem 1.2rem;
     font-family: 'Open Sans', sans-serif;
-
+    color: black;
+    font-weight: 500;
+text-transform: uppercase;
+}
+.btn-back-1 {
+    position: absolute;
+bottom: 20px ;
+right: 20px;
+    list-style: none;
+    text-decoration: none;
+    background-color: #f6c35d;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+    font-family: 'Open Sans', sans-serif;
     color: black;
     font-weight: 500;
 text-transform: uppercase;
@@ -916,5 +934,212 @@ transition: .5s linear;
 .main-content-c-11 a button:hover {
     transition: .5s linear;
     background-color: #b68603;
+}
+@media only screen and (max-width: 849px) {
+.photo-intro img {
+    width: 150px;
+    height: 150px;
+}
+.themnail-intro h1 {
+    font-size: 30px;
+}
+.themnail-intro h2 {
+    font-size: 30px;
+}
+.card-intro{
+    width: 90%;
+}
+.next-btn {
+    width: 10%;
+    font-size: 30px;
+}
+.card-box {
+    display: none;
+}
+.nav {
+    width: 100%;
+    padding: 0 5px;
+}
+.menu {
+    width: 80%;
+}
+.new-menu {
+    width: 100%;
+}
+.new-menu ul {
+    padding: 0 5px;
+}
+.new-menu ul li {
+    font-size: 10px;
+}
+.help , .icon , .new-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+}
+.new-btn h1 {
+    font-size: 15px;
+}
+.btn-back , .btn-back-1 {
+    padding:  8px;
+    font-size: 15px;
+    
+}
+.c-3 {
+    overflow: scroll;
+}
+.c-3 h1 {
+    font-size: 15px;
+}
+.c-3 p {
+    font-size: 10px;
+}
+.next-btn-tab {
+    font-size: 30px;
+}
+.main-detail-c-5 h1 {
+font-size: 40px;
+}
+.c-5:hover .main-detail-c-5 {
+    top: 30px;
+}
+.c-5:hover .main-detail-c-5  h1 {
+    font-size: 20px;
+}
+.c-5:hover .main-detail-c-5 p {
+    font-size: 7px;
+    transition: .5s linear;
+}
+.detail-overlay-c-5 {
+    width: 90%;
+}
+.detail-overlay-c-5 p {
+font-size: 8px;
+}
+.overlay {
+    padding: 5px 10px;
+}
+.maindetail-overlay {
+    width: 100%;
+    padding-top: 60px;
+}
+.photo-overlay {
+    display: none;
+}
+.themnail-c-1 {
+    width: 100%;
+    left: 50%;
+    top: 70px;
+    transform: translate(-50%, 0);
+
+}
+.c-1:hover .themnail-c-1 {
+    display: none;
+}
+.themnail-c-1 h1 {
+    font-size: 25px;
+}
+.themnail-c-1 p {
+    font-size: 15px;
+}
+.content-c-1 {
+    width: 100%;
+    left: 5px;
+}
+.content-c-1 h2 {
+    font-size: 20px;
+}
+.content-c-1 span {
+    font-size: 15px;
+}
+
+.maindetail-overlay h1 {
+    font-size: 25px;
+}
+.maindetail-overlay p {
+font-size: 12px;
+}
+.overlay a button {
+    width: 100%;
+    left: 1px;
+}
+.next-btn-s-4 {
+    font-size: 20px;
+    width: 40px;
+}
+.themnail-photo-1 h2 , .themnail-photo-2 h2, .themnail-photo-3 h2 {
+    font-size: 35px;
+}
+.detail-overlay-photo-1, .detail-overlay-photo-2, .detail-overlay-photo-3 {
+    width: 90%;
+    text-align: center;
+
+}
+.detail-overlay-photo-1 p, .detail-overlay-photo-2 p, .detail-overlay-photo-3 p {
+    font-size: 12px;
+}
+.main-content-s-4 {
+    width: 80%;
+}
+.next-btn-s-4 a {
+    font-size: 30px;
+}
+.btn-up {
+    font-size: 30px;
+    height: 15%;
+}
+.main-s-3 {
+    height: 85%;
+}
+.themnail-end {
+    margin-top: 60px;
+}
+.themnail-end h1 {
+    font-size: 30px;
+}
+.themnail-end h2 {
+    font-size: 20px;
+
+}
+.logo-end img {
+    width: 80px;
+    height: 80px;
+    z-index: 4;
+}
+.search-ip input {
+    width: 80px;
+}
+.search-end ul {
+    width: 100px;
+    flex-wrap: none;
+    flex-direction: column;
+}
+.logo-search {
+    gap: 5px;
+}
+.search-end ul li {
+    width: 100%;
+    font-size: 8px;
+}
+.keep-call {
+    padding: 10px 20px;
+    gap: 10px;
+}
+.keep-call a {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+.main-col-11 {
+    overflow: scroll;
+}
+.main-content-c-11 h1 {
+    font-size: 25px;
+}
+.main-content-c-11 P {
+    font-size: 10px;
+}
+
 }
 
