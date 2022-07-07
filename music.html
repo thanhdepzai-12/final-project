@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/style/music.css">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://unpkg.com/rabbit-lyrics" type="text/javascript"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -16,10 +17,10 @@
                 <img src="/photo/pngwing.com (2).png" alt="">
             </div></a>  
 <div class="mainheader-music">
-    <h1>Âm Nhạc</h1>
+    <h1 data-aos="zoom-in-right" data-aos-duration="1500">Âm Nhạc</h1>
 </div>
 <div class="mainheader-music-2">
-    <h1>Cổ Điển</h1>
+    <h1 data-aos="zoom-in-left" data-aos-duration="1500">Cổ Điển</h1>
 </div>
         </header>
         <section class="s-1">
@@ -142,10 +143,10 @@
         </div>
     </div>
     <div class="tab-button-musical">
-    <div class="btnMusical activeBTN M2"></div>
-    <div class="btnMusical M1"></div>
-    <div class="btnMusical M3"></div>
-    <div class="btnMusical M4"></div>
+    <div data-aos="fade-up" data-aos-duration="1500" class="btnMusical activeBTN M2"></div>
+    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300" class="btnMusical M1"></div>
+    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500" class="btnMusical M3"></div>
+    <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="700" class="btnMusical M4"></div>
 </div>
  </div>
 </div>
@@ -166,7 +167,7 @@
 
 <footer>
     <div class="row-footer">
-        <div class="col-footer">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" class="col-footer">
             <img src="photo/pngwing.com (2).png" alt="" class="logo">
         </div>
         <div class="col-footer">
@@ -192,10 +193,10 @@
                 <button type="submit"><i class='bx bx-right-arrow-alt'></i></button>
             </form>
             <div class="social-icons">
-                <i class='bx bxl-facebook'></i>
-                <i class='bx bxl-twitter' ></i>
-                <i class='bx bxl-instagram'></i>
-                <i class='bx bxl-gmail' ></i>
+                <a href="https://www.facebook.com/profile.php?id=100035948992804"><i data-aos="fade-down" data-aos-duration="1500" class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/uppaa_06"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200" class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/tientahnh.7206/"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" class='bx bxl-instagram'></i></a>
+                <a href="https://mail.google.com/mail/u/1/#inbox"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600" class='bx bxl-gmail' ></i></a>
             </div>
         </div>
     </div>
@@ -263,8 +264,10 @@ ScrollReveal ({
 
 </script>
 
-
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 </body>

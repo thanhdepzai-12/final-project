@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="/style/cultures.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -100,7 +101,7 @@
 
 
 <div class="mainbtn">
-<div class="btnCul btnCul-0 active">
+<div class="btnCul btnCul-0 active" data-aos="fade-down-right" data-aos-duration="2000">
     <i class='bx bx-search'></i>
 <div class="overlay-btnCul">
     <div class="themnail-btnoverlay">
@@ -111,7 +112,7 @@
     </div>
 </div>
 </div>
-<div class="btnCul btnCul-1">
+<div class="btnCul btnCul-1" data-aos="fade-down" data-aos-duration="2000">
     <i class='bx bx-search'></i>
     <div class="overlay-btnCul">
         <div class="themnail-btnoverlay">
@@ -122,7 +123,7 @@
         </div>
     </div>
 </div>
-<div class="btnCul btnCul-2">
+<div class="btnCul btnCul-2" data-aos="fade-down-left" data-aos-duration="2000">
     <i class='bx bx-search'></i>
     <div class="overlay-btnCul">
         <div class="themnail-btnoverlay">
@@ -171,7 +172,7 @@
 
 <footer>
     <div class="row-footer">
-        <div class="col-footer">
+        <div data-aos="zoom-in-right" data-aos-duration="1000" class="col-footer">
             <img src="photo/pngwing.com (2).png" alt="" class="logo">
         </div>
         <div class="col-footer">
@@ -197,10 +198,10 @@
                 <button type="submit"><i class='bx bx-right-arrow-alt'></i></button>
             </form>
             <div class="social-icons">
-                <i class='bx bxl-facebook'></i>
-                <i class='bx bxl-twitter' ></i>
-                <i class='bx bxl-instagram'></i>
-                <i class='bx bxl-gmail' ></i>
+                <a href="https://www.facebook.com/profile.php?id=100035948992804"><i data-aos="fade-down" data-aos-duration="1500" class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/uppaa_06"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="200" class='bx bxl-twitter' ></i></a>
+                <a href="https://www.instagram.com/tientahnh.7206/"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="400" class='bx bxl-instagram'></i></a>
+                <a href="https://mail.google.com/mail/u/1/#inbox"><i data-aos="fade-down" data-aos-duration="1500" data-aos-delay="600" class='bx bxl-gmail' ></i></a>
             </div>
         </div>
     </div>
@@ -211,6 +212,12 @@
 
 
 </div>
+
 <script src="/js/cultured.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
