@@ -13,7 +13,7 @@
 <body>
 
 
-<div class="container">
+<div class="container loading">
 <section class="s-1" id="s-1">
 
 
@@ -254,12 +254,12 @@
 <div class="main-photo-s-4">
  <div class="photo photo-1">
     <div class="themnail-photo-1">
-       <h2> Đời Sống</h2>
+       <h2> Kiến Trúc</h2>
     </div>
     <div class="overlay-photo">
 <div class="detail-overlay-photo-1">
     <p>t sinh hoạt kinh tế đều được Nhà nước bao cấp, diễn ra dưới nền kinh tế kế hoạch hóa, một đặc điểm của nền kinh tế các nước thuộc Khối xã hội chủ nghĩa thời kỳ đó. Theo đó thì kinh tế tư nhân bị xóa bỏ, nhường chỗ cho khối kinh tế tập thể và kinh tế do nhà nước chỉ huy.</p>
-<a href=""><button>Xem Thêm</button></a>
+<a href="/architecturenew.html"><button>Xem Thêm</button></a>
 </div>
     </div>
  </div>
@@ -338,6 +338,26 @@
 <script src="https://unpkg.com/scrollreveal"></script>
 
 <script>
+
+
+
+setTimeout(()=>{
+        document.getElementsByClassName('container')[0].classList.remove('loading')
+        },2800);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ScrollReveal ({
             reset:true,
             distance:'60px',

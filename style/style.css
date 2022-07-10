@@ -935,6 +935,82 @@ transition: .5s linear;
     transition: .5s linear;
     background-color: #b68603;
 }
+.col-11 {
+    height: 200%;
+}
+.col-12 {
+    display: none;
+}
+
+
+
+
+
+
+
+.loading,
+.loading .s-2,
+.loading .style-slider {
+  position: relative;
+}
+.loading .s-2::after {
+  content: "";
+  position: fixed;
+  z-index: 7;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  background-image: url(/photo/pngwing.com\ \(2\).png);
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  animation: translate 2.7s ease-in-out;
+  border: 1px solid black;
+  border-radius: 50%;
+  opacity: 0;
+}
+@keyframes translate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.loading .card-intro::after {
+  content: "";
+  position: fixed;
+  z-index: 6;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #FFC85C;
+  cursor: pointer;
+  animation: translate-card 2.8s linear;
+}
+@keyframes translate-card {
+  0% {
+    opacity: 1;
+    background-color: #FFC85C;
+  }
+  50% {
+    opacity: 1;
+    background-color: #FFC85C;
+  }
+  100% {
+    opacity: 0.8;
+    background-color: #FFC85C;
+  }
+}
+
+
 @media only screen and (max-width: 849px) {
 .photo-intro img {
     width: 150px;
@@ -1069,7 +1145,7 @@ font-size: 12px;
     width: 40px;
 }
 .themnail-photo-1 h2 , .themnail-photo-2 h2, .themnail-photo-3 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 .detail-overlay-photo-1, .detail-overlay-photo-2, .detail-overlay-photo-3 {
     width: 90%;

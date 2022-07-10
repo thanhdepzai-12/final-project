@@ -484,6 +484,14 @@ hr{
     left: 10px;
     animation: moving 2s linear infinite;
 }
+.viet {
+    font-size: 70px;
+    color: #ec4b4b;
+}
+.nam {
+    font-size: 120px;
+    color: #ec4b4b;
+}
 
 @keyframes moving{
     0%{
@@ -492,4 +500,69 @@ hr{
     100%{
         left: 100%;
     }
+}
+@media only screen and (max-width: 849px) {
+.themnail-logo h1 {
+    font-size: 40px;
+}
+.viet {
+    font-size: 20px;
+}
+.nam {
+    font-size: 50px;
+}
+.logo-fes img {
+    width: 70px;
+    height: 70px;
+}
+.line-fes {
+    transform: rotate(0);
+}
+.themnail-s-1 h1 {
+    font-size: 30px;
+}
+.main-secs1 {
+    padding: 10px;
+    flex-direction: column;
+}
+.container .card {
+    width: 300px;
+}
+.themnail-s-2 {
+    font-size: 17px;
+}
+.detail-phanloai h1 {
+    font-size: 20px;
+}
+.detail-phanloai p {
+    font-size: 11px;
+}
+.photo-phanloai img {
+    height: 77%;
+}
+.photo-phanloai ul li {
+    width: 30px;
+    height: 30px;
+}
+.row-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    padding: 5px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.col-footer {
+    padding: 0;
+}
+.col-footer p {
+    font-size: 12px;
+}
+ul li {
+    font-size: 12px;
+}
 }

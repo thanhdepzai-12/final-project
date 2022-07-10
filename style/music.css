@@ -709,7 +709,34 @@ hr{
     left: 0;
     overflow: hidden;
 }
-
+.card {
+    width: 18rem;
+}
+.colum21 {
+    padding: 0;
+    background: url(https://photo-resize-zmp3.zmdcdn.me/w240_r1x1_jpeg/cover/6/3/d/6/63d66cba99e32af4630120850c19bd53.jpg) center/cover;
+}
+.overlay-tcs-col21 {
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.8);
+    padding: 20px;
+}
+.overlay-tcs-col21 p {
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-song {
+    background-color: #333;
+}
+.colum22 {
+    display: none;
+}
+.mainsong {
+    grid-template-columns: 1fr 1fr;
+}
 .underline span{
     width: 15px;
     height: 100%;
@@ -731,3 +758,149 @@ hr{
     }
 }
 
+@media only screen and (max-width: 849px) {
+    .card-img-top {
+        height: 80px;
+    }
+    .card-body h5 {
+        font-size: 5px;
+  
+    }
+    .card-body p {
+        font-size: 5px;
+    }
+    .card {
+        width: auto;
+    }
+    section {
+        height: 100vh;
+    }
+    .s-1 {
+        height: 200vh;
+    }
+    .review-tcs h1 {
+        font-size: 20px;
+    }
+    .review-tcs p {
+        font-size: 8px;
+    }
+  
+    .themnailtcs h2 {
+        font-size: 15px;
+    }
+    .themnailtcs h1 {
+        font-size: 25px;
+    }
+    .themnailtcs .para {
+        font-size: 8px;
+    }
+    .themnailtcs p {
+        font-size: 8px;
+    }
+    .themnail-s3-m {
+        font-size: 15px;
+    }
+    .main-list-music {
+        padding: 5px;
+        row-gap: 20px;
+    }
+    .music-play img {
+        width: 100%;
+        object-fit: cover;
+    }
+    .list-music h2 {
+        font-size: 10px;
+    }
+    .list-music p {
+        font-size: 8px;
+    }
+    .list-music .bx-headphone {
+        font-size: 15px;
+        right: 2px;
+    }
+    .mainsec-s-2-music {
+        position: relative;
+    }
+    .music-play audio {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .main-list-music {
+        height: 80%;
+    }
+    .detail-paneM h1 {
+        font-size: 18px;
+    }
+    .detail-paneM p {
+        font-size: 8px;
+    }
+    .btnMusical {
+        width: 57px;
+        height: 57px;
+    }
+    .tab-button-musical {
+        padding: 0;
+    }
+    .row-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+        padding: 5px;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .col-footer {
+        padding: 0;
+    }
+    .col-footer p {
+        font-size: 12px;
+    }
+   footer ul li {
+        font-size: 12px;
+    }
+    .review-tcs ul {
+        font-size:7px;
+    }
+    .themnail-sec1 h3 {
+        font-size: 50px;
+    }
+    .mainheader-music-2 h1  , .mainheader-music h1{
+        font-size: 50px;
+    }
+    .logo-fes img {
+        width: 70px;
+        height: 70px;
+    }
+    .mainsong {
+  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-song {
+        width: 100%;
+        background: #333;
+    }
+    .colum20 {
+        padding: 5px;
+    }
+    .colum21 h1 {
+        font-size: 20px;
+    }
+    .colum21 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .overlay-tcs-col21 p {
+        font-size: 6px;
+    }
+}

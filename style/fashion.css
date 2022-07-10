@@ -662,3 +662,127 @@ hr{
         left: 100%;
     }
 }
+@media only screen and (max-width: 849px) {
+    .logo-header {
+        width: 70px;
+        height: 70px;
+    }
+    .header-list {
+         padding: 0 10px;
+    }
+    .header-list h1 {
+        font-size: 25px;
+    }
+    .themnail-header p {
+        font-size: 15px;
+    }
+    .trend-card h1 {
+        font-size: 40px;
+    }
+    .trend-photo img {
+        width: 150px;
+        height: 250px;
+    }
+    .photo-trend-1 img {
+        border-bottom-right-radius: 50px;
+    }
+    .photo-trend-1 {
+        left: 60px;
+    }
+    .photo-trend-2 {
+        right: -35px;
+    }
+    .tabs-pane p {
+        font-size: 13px;
+    }
+    .tabs-pane h1 {
+        font-size: 25px;
+    }
+    .tabs-btn {
+        width: 57px;
+        height: 57px;
+    }
+    .active-tab {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    .detail-nl {
+        bottom: -50%;
+        right: -50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .photo-detail-nl  {
+    display: none;
+    }
+    .main-detail-nl h1 {
+        font-size: 50px;
+    }
+    .detail-content-nl p {
+font-size: 12px;
+    }
+    .row p {
+        font-size: 10px;
+    }
+    .row h1 {
+        font-size: 20px;
+    }
+    .content-fac {
+        padding: 5px;
+    }
+    .photo-fac {
+        padding: 5px;
+
+    }
+    .themnail-jew h1 {
+        font-size: 50px;
+    }
+    .themnail-jew::after {
+        display: none;
+    }
+    .main-factory {
+        margin-top: 50px;
+        height: 100vh;
+    }
+    .main-jew .col-17 {
+        display: none;
+    }
+    .main-jew .col-18  {
+        display: none;
+    }
+    .main-jew {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 5px;
+    }
+    .detai-col h1 {
+        font-size: 20px;
+    }
+.row-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    padding: 5px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.col-footer {
+    padding: 0;
+}
+.col-footer p {
+    font-size: 12px;
+}
+ul li {
+    font-size: 12px;
+}
+
+}

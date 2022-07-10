@@ -529,3 +529,139 @@ hr{
         left: 100%;
     }
 }
+@media only screen and (max-width: 849px) {
+    .logo-header img {
+        width: 70px;
+        height: 70px;
+        top: 8px;
+        left: 5px;
+    }
+    .main-header-war h2 {
+        font-size: 40px;
+        top: 50%;
+        right: 0;
+   display: flex;
+   justify-content: end;
+
+    }
+.s-1 , .s-2 ,.s-3 {
+    height: 100vh;
+}
+    .main-header-war h3 {
+        font-size: 40px;
+        font-size: 35px;
+        top: 52%;
+right: 20%;
+        width: 100%;
+        z-index: 4;
+        display: none;
+    }
+    #card1 {
+        display: none;
+    }
+    #card2 {
+        display: none;
+    }
+    footer {
+        margin-top: 200px;
+    }
+    .s-1 .card .imgBx {
+        left: 50%;
+        transform: translate(-50% , 0);
+    }
+ .content h2 {
+    font-size: 20px;
+ }
+ .content p {
+    font-size: 14px;
+ }
+    .main-header-war h1 {
+        font-size: 30px;
+    }
+    .images-header img {
+        height: 300px;
+    }
+    .themnail-war-header {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .maincard-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .themnail-s-2 {
+        padding: 2px;
+    }
+    .themnail-s-2 h1 {
+        font-size: 20px;
+    }
+    .photo h2 {
+        font-size: 15px;
+    }
+    .photo p {
+        font-size: 12px;
+    }
+    .main-rada {
+        height: 100vh;
+    }
+    .endpart {
+        margin-top: 200px;
+    }
+    .button-rada {
+        padding: 10px;
+    }
+    .rada {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .s-3 .rada .text {
+        margin: 0;
+    }
+    .text {
+        overflow: scroll;
+    }
+    .text h2 {
+        font-size: 15px;
+    }
+    .text p {
+        font-size: 7px;
+    }
+    
+
+.s-3 .rada .image img {
+    width: 100%;
+height: 114px;
+}
+    .button-rada h1 {
+        font-size: 20px;
+    }
+    .button-rada .bx {
+        font-size: 30px;
+    }
+.row-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 8px;
+    row-gap: 8px;
+    padding: 5px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+}
+.col-footer {
+    padding: 0;
+}
+.col-footer p {
+    font-size: 12px;
+}
+ul li {
+    font-size: 12px;
+}
+}

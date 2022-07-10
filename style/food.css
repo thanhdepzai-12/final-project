@@ -607,3 +607,129 @@ hr{
         left: 100%;
     }
 }
+@media only screen and (max-width: 849px) {
+  
+    section {
+        height: 100vh;
+    }
+    .themnail-header {
+        font-size: 40px;
+    }
+    .themnail-header-2 {
+        font-size: 20px;
+    }
+    .row-footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 8px;
+        row-gap: 8px;
+        padding: 5px;
+    }
+    .themnail-header::after {
+        height: 260px;
+    }
+    .logo-back-home {
+        width: 80px;
+        height: 80px;
+    }
+    .photo-tabs-pane img {
+height: 100px;
+    }
+    .detail-tabs-pane {
+        justify-content: start;
+align-items:center;
+    }
+    .detail-tabs-pane h1 {
+        font-size: 30px;
+    }
+    .detail-tabs-pane p {
+        font-size: 10px;
+    }
+    .themnail-header::before {
+        display: none
+        
+        ;
+    }
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .col-footer {
+        padding: 0;
+    }
+    .tab-button-2 {
+        column-gap: 5px;
+    }
+    .tabs-btn-2 img {
+  width: auto;
+    height: 45px;
+    }
+    .small-detail-rice h1 {
+        font-size: 18px;
+      
+    }
+    .c-20 img, .c-22 img  {
+        height: 20px;
+    }
+    .detail-c-20 h1, .detail-c-21 h1 {
+        font-size: 12px;
+    }
+    .detail-c-20 p, .detail-c-21 p {
+        font-size: 5px;
+    }
+    .detail-c-28 p {
+        font-size: 5px;
+    }
+    .small-detail-rice {
+        font-size: 11px;
+    }
+    .themnail-Sidedish h1 {
+        font-size: 12px;
+    }
+    .c-26 img {
+        height: 50px;
+    }
+    .c-25 img {
+        width: 80px;
+    }
+    .detail-content-s-3 img {
+        display: none;
+    }
+    .detail-content-s-3 p {
+        font-size: 9px;
+    }
+    .detail-c-23 h1 {
+        font-size: 12px;
+    }
+    .detail-c-28 h1 {
+        font-size: 12px;
+    }
+    .detail-c-23 {
+        width: 100%;
+    }
+    .detail-c-23 p {
+        font-size: 5px;
+    }
+    .sec-2 {
+        display: none;
+    }
+    .sec-3 {
+        margin-top: 50px;
+        background-color: #FFC85C;
+    }
+    .main-content-sec-3 {
+    
+        background-color: #FFC85C;
+    }
+    .tabs-pane-2::after {
+        width: 100%;
+    }
+    .col-footer p {
+        font-size: 12px;
+    }
+    ul li {
+        font-size: 12px;
+    }
+}
+

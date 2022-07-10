@@ -17,7 +17,7 @@ const callApi = async function () {
        
     
           
-               musicItemHTML += `<div class="card" style="width: 18rem;">
+               musicItemHTML += `<div class="card" >
                <img src="${song.avatar}" class="card-img-top" alt="Pokemon">
                <div class="card-body">
                  <h5 class="card-title">
@@ -60,8 +60,12 @@ const overlay = document.querySelector('.overlay-music')
         <source src="${newSong.music}" type="audio/ogg">
       </audio></div>
         <div class='colum colum21'>
+        <div class='overlay-tcs-col21'>
         <h1>Bài Hát : ${newSong.title}</h1>
-        <p>${newSong.lyric}</p>
+        <p>Tình yêu là đề tài lớn và ảnh hưởng nhất trong các tác phẩm của Trịnh Công Sơn. Những bản tình ca chiếm đa số trong danh mục nhạc phẩm. Khả năng viết nhạc tình của Trịnh Công Sơn tưởng chừng không biết mai một theo năm tháng, theo thời đại: từ 1958 với "Ướt mi" đã nổi tiếng cho đến thập niên 1990 ông vẫn có những tình ca được nhiều người ưa thích: "Như một lời chia tay", "Xin trả nợ người"...
+
+        Nhạc tình của ông đa số là nhạc buồn, thường nói lên tâm trạng buồn bã, cô đơn như trong "Sương đêm", "Ướt mi", những ca khúc nhạc tình vẫn mênh mang nỗi buồn kiếp người như "Diễm xưa", "Biển nhớ", "Tình xa", "Tình sầu", "Tình nhớ", "Em còn nhớ hay em đã quên", "Hoa vàng mấy độ", "Cỏ xót xa đưa", "Gọi tên bốn mùa", "Mưa hồng"...</p>
+        </div>
   </div>
         <div class='colum colum22'>
         </div>`
